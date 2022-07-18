@@ -31,9 +31,9 @@ function getUserInfo() {
       }
       //调用渲染用户头像的函数
       renderAvatar(res.data)
-    },
+    }
     //无论成功或者失败，最终都会调用complete函数
-    
+
   })
 }
 
